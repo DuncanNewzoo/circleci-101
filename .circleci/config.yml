@@ -5,6 +5,6 @@ jobs:
       - image: circleci/python:3.6.5
     steps:
       - checkout
-      - run: pip install pytest
+      - run: pip install --user pytest
       - run: pytest test.py
 
