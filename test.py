@@ -11,3 +11,6 @@ class TestSomething():
     def test_true(self):
         assert True == True
         return
+
+    def some_other_test(self):
+        return
