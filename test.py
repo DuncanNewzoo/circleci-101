@@ -5,6 +5,7 @@ class TestSomething():
         return
 
     def test_success(self):
+        print('hi')
         return
 
     def test_true(self):
